@@ -2,20 +2,6 @@
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-![vscode-portfolio banner](https://imgur.com/aCeYWSQ.gif)
-
-## Features Roadmap
-
-- [ ] Themes and customizations
-  - [x] GitHub Dark (default)
-  - [ ] One Dark Pro
-  - [x] Dracula
-  - [x] Ayu
-  - [x] Nord
-- [ ] Interactive custom terminal
-
-For other features and themes suggestions, please open an issue.
-
 ## Running Development Server
 
 ```bash

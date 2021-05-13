@@ -5,19 +5,15 @@ import "../styles/globals.css";
 import "../styles/themes.css";
 
 function MyApp({ Component, pageProps }) {
-
   useEffect(() => {
     if (localStorage.getItem("theme")) {
-      document.documentElement.setAttribute(
-        "data-theme",
-        localStorage.getItem("theme")
-      );
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("theme"));
     }
   }, []);
 
   return (
     <Layout>
-      <Head title={`Nitin Ranganath | ${pageProps.title}`} />
+      <Head title={`Dean Sorie | ${pageProps.title}`} />
       <Component {...pageProps} />
     </Layout>
   );
